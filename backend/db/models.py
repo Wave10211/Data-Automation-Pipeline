@@ -1,8 +1,8 @@
-# backend/db/models.py
 from sqlalchemy.orm import declarative_base, Mapped, mapped_column
-from sqlalchemy import Integer, String, Float, Boolean, DateTime, func
+from sqlalchemy import Integer, String, Boolean, DateTime, func
 
 Base = declarative_base()
+
 
 class TodoRecord(Base):
     __tablename__ = "todos"
