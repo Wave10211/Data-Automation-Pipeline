@@ -1,4 +1,7 @@
+from fastapi import FastAPI
 from backend.api.fetch_services import FetchService
+
+app = FastAPI()
 
 def run_pipeline():
     fetcher = FetchService()

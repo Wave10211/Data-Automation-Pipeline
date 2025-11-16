@@ -17,3 +17,5 @@ EXPOSE 8000
 
 # Rulează serverul
 CMD ["uvicorn", "backend.web.server:app", "--host", "0.0.0.0", "--port", "8000"]
+
+
